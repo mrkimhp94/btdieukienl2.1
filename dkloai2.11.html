@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const l1 = 0.1;
+    const l2 = 0.15;
+    const l3 = 0.18;
+    let x = parseInt(prompt("Nhập thu nhập (triệu vnd)"));
+    if (x < 10) {
+        alert(0);
+    } else if (x <50) {
+        alert(x*l1);
+    } else if (x<100){
+        alert(x*l2);
+    }else {
+        alert(x*l3);
+    }
+</script>
+</body>
+</html>
